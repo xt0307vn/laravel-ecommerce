@@ -126,7 +126,7 @@
                         <div class="upload-image flex-grow">
                             @if($product->image)
                                 <div class="item" id="imgpreview">
-                                    <img src="{{ asset("uploads/product") }}/{{ $product->image }}" class="effect8" alt="">
+                                    <img src="{{ asset("uploads/product") }}/{{ $product->image }}" class="effect8" alt="Preview">
                                 </div>
                             @endif
                             <div id="upload-file" class="item up-load">

@@ -75,7 +75,7 @@
                         </div>
                         <div class="upload-image flex-grow">
                             <div class="item" id="imgpreview">
-                                <img src="{{ asset("uploads/slide") }}/{{ $slide->image }}" class="effect8" alt="">
+                                <img src="{{ asset("uploads/slide") }}/{{ $slide->image }}" class="effect8" alt="Preview">
                             </div>
                             <div class="item up-load">
                                 <label class="uploadfile" for="myFile">

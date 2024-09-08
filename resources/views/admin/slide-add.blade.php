@@ -73,7 +73,7 @@
                         </div>
                         <div class="upload-image flex-grow">
                             <div class="item" id="imgpreview" style="display:none">
-                                <img src="../../../localhost_8000/images/upload/upload-1.png" class="effect8" alt="">
+                                <img src="../../../localhost_8000/images/upload/upload-1.png" class="effect8" alt="Preview">
                             </div>
                             <div class="item up-load">
                                 <label class="uploadfile" for="myFile">

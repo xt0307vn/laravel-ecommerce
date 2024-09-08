@@ -56,7 +56,7 @@
                                         <td>{{ $key }}</td>
                                         <td class="pname">
                                             <div class="image">
-                                                <img src="{{ asset('uploads/brand') }}/{{ $brand->image }}" alt="" class="image">
+                                                <img src="{{ asset('uploads/brand') }}/{{ $brand->image }}" alt="{{ $brand->name }}" class="image">
                                             </div>
                                             <div class="name">
                                                 <a href="#" class="body-title-2">{{ $brand->name }}</a>

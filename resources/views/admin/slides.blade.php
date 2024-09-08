@@ -52,7 +52,7 @@
                                     <td>{{ $slide->id }}</td>
                                     <td class="pname">
                                         <div class="image">
-                                            <img src="{{ asset("uploads/slide") }}/{{ $slide->image }}" alt="" class="image">
+                                            <img src="{{ asset("uploads/slide") }}/{{ $slide->image }}" alt="{{ $slide->title }}" class="image">
                                         </div>
                                     </td>
                                     <td>{{ $slide->tagline }}</td>
